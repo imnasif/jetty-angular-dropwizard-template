@@ -1,0 +1,8 @@
+server:
+  applicationConnectors:
+  - type: http 
+    port: 9050
+    
+  adminConnectors:
+  - type: http
+    port: 9051

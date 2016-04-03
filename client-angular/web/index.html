@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Angular App Skeleton</title>        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- styles -->        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="icon" href="assets/img/favicon.ico">
+        <link rel="stylesheet" href="dist/all.min.css">
+
+        <!-- Dependencies -->
+        <script	src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.16/angular.min.js"></script>
+        <script	src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <!-- app -->
+        <script src="app/app.js"></script>
+        
+        <!-- controllers -->
+        <script src="app/controllers/AppController.js"></script>
+        <script src="app/controllers/BooksController.js"></script>
+        <script src="app/controllers/HomeController.js"></script>
+        <script src="app/controllers/MenuController.js"></script>
+        <script src="app/controllers/MoviesController.js"></script>
+        
+        <!-- directives -->
+        <script src="app/directives/nsf-books.js"></script>
+        <script src="app/directives/nsf-home.js"></script>
+        <script src="app/directives/nsf-menu.js"></script>
+        <script src="app/directives/nsf-movies.js"></script>
+        
+        <!-- services -->
+        <script src="app/services/BookService.js"></script>
+        <script src="app/services/MovieService.js"></script>
+ 
+    </head>
+
+    <body ng-app="demo-app" controller='AppController'>
+        <nsf-menu></nsf-menu>
+        <div ng-view></div>
+    </body>

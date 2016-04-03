@@ -1,0 +1,36 @@
+target/
+*.class
+# Package Files #
+*.war
+*.ear
+*.jar
+*.properties
+*.classpath
+
+
+# MAC Specific Files #
+.DS_Store
+
+# Code Coverage Reports
+.jacocoverage/
+
+#intel ij files
+.idea
+*.iml
+/bin/
+
+#eclipse settings
+.settings/
+
+#other artifacts
+coverage-report/
+
+#netbeans files
+nbactions.xml
+
+#Configs
+/configuration.yml
+
+dependency-reduced-pom.xml
+
+run-server.cmd

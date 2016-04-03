@@ -1,0 +1,5 @@
+/nbproject/private/
+/node_modules/
+/tests/runner/node_modules/
+/tests/runner/coverage/
+/tests/runner/reports/
